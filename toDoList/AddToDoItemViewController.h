@@ -1,5 +1,5 @@
 //
-//  MasterViewController.h
+//  AddToDoItemViewController.h
 //  toDoList
 //
 //  Created by Navaneethan Sivabalaviknarajah on 2015-06-24.
@@ -7,11 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ToDoItem.h"
 
-@interface MasterViewController : UITableViewController
+@interface AddToDoItemViewController : UIViewController
 
-- (IBAction)unwindToList:(UIStoryboardSegue *)segue;
-
+@property ToDoItem *toDoItem;
 
 @end
-
